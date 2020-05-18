@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+
+#container{
+	display: flex;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	border: 0.4em solid #000000;
+ 	width: 500px;
+	flex-flow: column;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+div[id=container]>p{ /* remove <p> margins */
+	display: flex;
+	margin: 0px;
+}	
+
+#container>h1{
+	display: flex;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+ 	margin: 0px; /* remove h1 margin */
+}
+
+#container>h5{
+	display: flex;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	margin: 0px; /* remove h5 margin */
+}
+
+div[id=fatline]{
+	display: flex;
+	height: 8px;
+	background-color: #000000;
+}
+
+p[id=with_cup]{
+	display: flex;
+	font-size: 10px;
+	text-align: right;
+	flex-flow: column;
+
+}
+
+p[id=amount]{
+	display: flex;
+	font-size: 10px;
+	flex-flow: row;
+	justify-content: space-between;
+}
