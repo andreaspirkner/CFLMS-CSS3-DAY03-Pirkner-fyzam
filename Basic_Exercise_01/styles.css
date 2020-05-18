@@ -5,6 +5,7 @@
 body{
 	font-family: 'Roboto', sans-serif;
 	background-color: lightgrey;
+	font-weight: 700;
 }
 
 #container{
@@ -18,16 +19,31 @@ body{
 
 #nav{
 	display: flex; 
-	flex-flow: row;
+	flex-flow: column;
     justify-content: space-between;
 	background: grey;	
 }
 
-a:{
- 	transition: font-size 1s;
+div[id="nav"]{
+	background-color: grey;
+ 	padding: 10px 0px 10px 0px;
 }
 
-a:hover{
+div[id="nav"]>a{
+	text-decoration: none;
+	background-color: grey;
+	font-weight: 400;
+	color: #FFFFFF;
+}
+
+div[id="nav"]>p{
+	background-color: #FFFFFF;
+ 	margin: 10px 0px 10px 0px;
+ 	height: 2px;
+}
+
+div[id="nav"]>a:hover{
 	font-size: 30px;
 	background-color: lightgrey;
+	color: #000000;
 }
