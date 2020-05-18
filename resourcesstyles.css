@@ -1,0 +1,46 @@
+body{
+	font: 100%/1.4 Roboto, sans-serif;
+	margin: 0;
+	padding: 0;
+	color: #3a5b87;
+}
+
+#container{
+	width: 80%;
+	max-width: 1280px;
+	min-width: 780px;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	flex-flow:column; 
+}
+.header{
+	background:#d9e1e1;
+	display: flex;
+	justify-content: center;
+	flex-flow: row;
+}
+
+.nav{
+	display: flex; 
+	flex-flow: row;
+    justify-content: space-between;
+	justify-content: space-around;
+	background: #69cec3;
+	padding: 10px 0 10px 0;
+	
+}
+
+
+div[class="nav"]>a:link{
+    text-decoration: none;
+    color: #3a5b87;
+}
+
+div[class="nav"]>a:hover, div[class="nav"]>a:active, div[class="nav"]>a:focus{
+	color: #030a24;
+} 
+
+div[class="nav"]>a:hover{
+	
+}
