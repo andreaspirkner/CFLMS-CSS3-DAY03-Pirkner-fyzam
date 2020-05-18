@@ -35,6 +35,8 @@ body{
 div[class="nav"]>a:link{
     text-decoration: none;
     color: #3a5b87;
+    /*width: 170px;*/
+   
 }
 
 div[class="nav"]>a:hover, div[class="nav"]>a:active, div[class="nav"]>a:focus{
@@ -42,5 +44,6 @@ div[class="nav"]>a:hover, div[class="nav"]>a:active, div[class="nav"]>a:focus{
 } 
 
 div[class="nav"]>a:hover{
-	
+	/*width: 170px;*/
+	height: 30px;
 }
